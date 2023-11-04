@@ -5,10 +5,10 @@ import * as actions from '../actions';
 
 /* Components */
 import Header from './Header';
+import Landing from './Landing';
 
 const Dashboard = () => <h1>Dashboard</h1>;
 const SurveyNew = () => <h1>SurveyNew</h1>;
-const Landing = () => <h1>Landing</h1>;
 
 class App extends Component {
    componentDidMount() {
