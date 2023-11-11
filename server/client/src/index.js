@@ -18,3 +18,6 @@ root.render(
       <App />
    </Provider>
 );
+
+console.log('STRIPE_KEY_IS', process.env.REACT_APP_STRIPE_KEY);
+console.log('ENVIORMENT IS', process.env.NODE_ENV);
